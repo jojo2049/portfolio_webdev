@@ -26,3 +26,7 @@ h1 {
 img {
     display: block;
 }
+
+.pro {
+    text-decoration: underline;
+}
