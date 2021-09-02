@@ -1,32 +1,68 @@
 body {
     background-color: #F7F6F2;
+    /* background-color: #F0E5CF; */
     margin: 0;
+    text-align: center;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 1.5rem;
+    color: F0E5CF
 }
 
 h1 {
-    margin-top: 0;
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Caveat', cursive;
+    color: #4B6587;
+    
 }
 
-.top {
-    background-color: #F0E5CF;
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #4B6587;
+    font-weight: normal;
+    line-height: 2rem;
 }
 
-.middle {
-    background-color: #C8C6C6;
-    height: 200px;
-    width: 200px;
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4B6587;
 }
 
-.bottom {
-    background-color: #4B6587;
-    height: 200px;
-    width: 200px;
+.top, .middle, .bottom {
+    background-color: #F7F6F2;
+    position: relative;
+    padding-top: 100px;
 }
 
-img {
-    display: block;
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skills-img, .projects-img {
+    
+}
+
+.bottom-cloud {
+
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
 }
 
 .pro {
     text-decoration: underline;
+}
+
+.footer-link {
+    color: #4B6587;
 }
